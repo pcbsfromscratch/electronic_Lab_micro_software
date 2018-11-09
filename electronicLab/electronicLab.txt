@@ -1,0 +1,90 @@
+Configuration	electronicLab
+STM32CubeMX 	4.27.0
+Date	11/09/2018
+MCU	STM32F401RBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+I2C1	I2C	I2C1_SCL	PB6
+I2C1	I2C	I2C1_SDA	PB7
+I2C2	I2C	I2C2_SCL	PB10
+I2C2	I2C	I2C2_SDA	PB3
+I2C3	I2C	I2C3_SCL	PA8
+I2C3	I2C	I2C3_SDA	PC9
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+USART2	Asynchronous	USART2_RX	PA3
+USART2	Asynchronous	USART2_TX	PA2
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+3	PC14-OSC32_IN*	RCC_OSC32_IN	
+4	PC15-OSC32_OUT*	RCC_OSC32_OUT	
+9	PC1	GPIO_Output	
+10	PC2	GPIO_Output	
+11	PC3	GPIO_Output	
+14	PA0-WKUP	GPIO_Output	
+15	PA1	GPIO_Output	
+16	PA2	USART2_TX	
+17	PA3	USART2_RX	
+20	PA4	GPIO_Output	
+23	PA7	GPIO_Output	
+24	PC4	GPIO_Output	
+25	PC5	GPIO_Input	
+26	PB0	GPIO_Input	
+27	PB1	GPIO_Input	
+28	PB2	GPIO_Output	
+29	PB10	I2C2_SCL	
+35	PB14	GPIO_Input	
+36	PB15	GPIO_Output	
+37	PC6	GPIO_Output	
+38	PC7	GPIO_Output	
+39	PC8	GPIO_Output	
+40	PC9	I2C3_SDA	
+41	PA8	I2C3_SCL	
+42	PA9	GPIO_Output	
+43	PA10	GPIO_Output	
+44	PA11	GPIO_Output	
+45	PA12	GPIO_Output	
+46	PA13	SYS_JTMS-SWDIO	
+49	PA14	SYS_JTCK-SWCLK	
+50	PA15	GPIO_Input	
+52	PC11	GPIO_Output	
+53	PC12	GPIO_Output	
+55	PB3	I2C2_SDA	
+56	PB4*	SYS_JTRST	
+57	PB5	GPIO_Input	
+58	PB6	I2C1_SCL	
+59	PB7	I2C1_SDA	
+61	PB8	GPIO_Input	
+62	PB9	GPIO_Input	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : electronicLab
+Project Folder : C:\Users\Public\Documents\Altium\Projects\electronic_Lab_software\electronicLab
+Toolchain / IDE : MDK-ARM V5
+Firmware Package Name and Version : STM32Cube FW_F4 V1.21.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
