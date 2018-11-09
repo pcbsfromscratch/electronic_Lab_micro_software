@@ -1,0 +1,12 @@
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+electroniclab\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+electroniclab\port.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+electroniclab\port.o: ../Inc/FreeRTOSConfig.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+electroniclab\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
